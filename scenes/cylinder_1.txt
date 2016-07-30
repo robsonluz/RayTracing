@@ -1,0 +1,24 @@
+scene:
+background-col=0.1 0.1 0
+ambient-light=1 1 1
+super-samp-width=1
+
+camera:
+eye = 0 0 2
+look-at = 0 0 0
+screen-dist = 1
+up-direction = 0 1 0
+
+cylinder:
+start = 0 -0.5 0
+direction = 0 1 0
+length = 1
+radius = 0.2
+specular = 0 1 1
+color = 0 1 0
+
+
+light-directed:
+direction=0 -1 -1
+color= 1 1 0
+

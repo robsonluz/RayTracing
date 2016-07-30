@@ -1,0 +1,91 @@
+scene:
+background-col=0.3 0.3 0.6
+ambient-light=1 1 1
+width=1680
+height=1050
+super-samp-width=10
+
+camera:
+eye = -1 1.7 2
+#eye = 0 0.5 2
+look-at = 1 0.5 0
+screen-dist = 0.5
+up-direction = 0 1 0
+
+light-point:
+pos=0 1 3
+color = 1 1 1
+attenuation = 0.5 0.1 0.01
+
+light-directed:
+direction = 1 -3 -2
+color = 0.1 0.1 0.5
+
+rectangle:
+p0=-1.5 0 1.5
+p1=30 0 1.5
+p2=-1.5 0 -2
+mtl-specular=0 0 0
+mtl-type=checkers
+mtl-repeat = true
+mtl-materialWidth = 58
+mtl-materialHeight = 58
+mtl-reflectance = 0.1
+
+
+sphere:
+center = 0 0.5 0
+radius = 0.5
+mtl-diffuse=0.58 0.68 0.58
+mtl-specular=0.7 0.7 0.7
+mtl-shininess=50
+mtl-refraction = 1
+#mtl-reflectance = 0.9
+
+sphere:
+center = 1.6 0.4 0
+radius = 0.8
+mtl-diffuse=0.98 0.48 0.4
+mtl-specular=0.7 0.7 0.7
+mtl-shininess=50
+mtl-refraction = 0.1
+mtl-reflectance = 0.1
+mtl-texture = images/Leaf.jpg
+mtl-bumpMapping = images/Leaf_bump.jpg
+mtl-bumpIntensity = 0.2
+
+sphere:
+center = 4 0.5 0
+radius = 0.5
+mtl-diffuse=0.98 0.48 0.4
+mtl-specular=0.7 0.7 0.7
+mtl-shininess=50
+mtl-refraction = 1
+#mtl-reflectance = 0.9
+
+sphere:
+center = 7 0.5 0
+radius = 0.5
+mtl-diffuse=0.98 0.48 0.4
+mtl-specular=0.7 0.7 0.7
+mtl-shininess=50
+mtl-refraction = 1
+#mtl-reflectance = 0.9
+
+sphere:
+center = 10 0.5 0
+radius = 0.5
+mtl-diffuse=0.98 0.48 0.4
+mtl-specular=0.7 0.7 0.7
+mtl-shininess=50
+mtl-refraction = 1
+#mtl-reflectance = 0.9
+
+sphere:
+center = 15 0.5 0
+radius = 0.5
+mtl-diffuse=0.98 0.48 0.4
+mtl-specular=0.7 0.7 0.7
+mtl-shininess=50
+mtl-refraction = 1
+#mtl-reflectance = 0.9
